@@ -1,0 +1,24 @@
+/* *~*~*~*~*~*~*~*~*~
+General
+*~*~*~*~*~*~*~*~*~ */
+
+body {
+    margin: 0;
+    color: #444;
+    font-family: verdana, sans-serif;
+}
+
+/* *~*~*~*~*~*~*~*~*~
+Header
+*~*~*~*~*~*~*~*~*~ */
+
+header {
+    background-color: #eeedef;
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+}
+
+header h2 {
+    margin: 0;
+}
