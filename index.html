@@ -14,8 +14,20 @@
     <body>
         <header>
             <h2>Live Code Web Editor</h2>
+            <button id='run'>Run</button>
+            <ul id='languages'>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li style='border: none;'>Result</li>
+            </ul>
         </header>
+        <div class="clearfix"></div>
 
+        <div id="htmlbox" class='codebox'></div>
+        <div id="cssbox" class='codebox'></div>
+        <div id="jsbox" class='codebox'></div>
+        <div id="resultbox" class='codebox'></div>
 
         <script type='text/javascript' src='scripts.js'></script>
     </body>

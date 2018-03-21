@@ -14,11 +14,58 @@ Header
 
 header {
     background-color: #eeedef;
-    height: 30px;
+    height: 50px;
     width: 100%;
-    padding: 10px;
 }
 
 header h2 {
-    margin: 0;
+    margin: 7.5px;
+    float: left;
+}
+
+#run {
+    float: right;
+    margin: 7.5px;
+    font-size: 1.3em;
+    width: 5em;
+}
+
+#languages {
+    padding: 0;
+    list-style: none;
+    width: 260px;
+    height: 30px;
+    border: 1px black solid;
+    margin: 0 auto;
+    position: relative;
+    top: 8px;
+    border-radius: 30px;
+}
+
+#languages li {
+    font-size: 1.15em;
+    float: left;
+    padding: 4px 11px;
+    border-right: 1px gray solid;
+    cursor: pointer;
+}
+
+/* *~*~*~*~*~*~*~*~*~
+Main
+*~*~*~*~*~*~*~*~*~ */
+
+.codebox {
+    width: 25%;
+    border-right: 1px gray solid;
+    height: 100%;
+    float: left;
+}
+
+
+/* *~*~*~*~*~*~*~*~*~
+Misc
+*~*~*~*~*~*~*~*~*~ */
+
+.clearfix {
+    clear: both;
 }
