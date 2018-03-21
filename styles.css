@@ -56,10 +56,36 @@ Main
 
 .codebox {
     width: 25%;
-    border-right: 1px gray solid;
-    height: 100%;
     float: left;
+    padding: 0;
+    margin: 0;
+    padding-right: 11px;
+    box-sizing: border-box;
+    position: relative;
 }
+
+.codebox textarea {
+    width: 100%;
+    padding: 0 5px;
+    margin: 0;
+    border: none;
+    border-right: 1px gray solid;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.languageLabel {
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px gray solid;
+    border-radius: 7px;
+}
+
+/* #cssbox, #jsbox {
+    display: none;
+} */
 
 
 /* *~*~*~*~*~*~*~*~*~
